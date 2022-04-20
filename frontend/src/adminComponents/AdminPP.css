@@ -1,0 +1,90 @@
+body{
+    color: white;
+    background-color:rgb(114, 155, 172);
+}
+
+h1{
+    text-align: center;
+}
+
+.wrapper .main-container .big-form {
+  width:90%;
+  margin:  auto;
+  padding:30px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 50px black;
+  background-color: #cdcfd0; 
+  color: #34495e;
+  margin-top: 5vh;
+}
+
+.wrapper .main-container .big-form  label {
+  display:block;
+  font-weight: bold;
+}
+
+.wrapper .main-container .big-form  input {
+  display:block;
+  width: 100%;
+  border: 1px solid #000;
+  padding:5px;
+  box-sizing: border-box;
+}
+
+.wrapper .main-container .big-form  textarea {
+  display:block;
+  width: 100%;
+  border: 1px solid #000;
+  padding:5px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+/* .wrapper .main-container #submit{
+  display: inline-block; 
+  padding: 15px 80px;
+  margin-top: 10px;
+  background-color: #eb7d4b;
+  color: #FFF;
+  text-transform: uppercase; 
+  font-weight: 900;
+  border-bottom: 5px solid #c86a40;
+  border-radius: 5px;
+  cursor: pointer;
+} */
+.wrapper .main-container legend{
+  text-align: center;
+  font-weight: bold;
+}
+
+.wrapper .main-container fieldset{
+  padding: 10px;
+}
+
+
+
+.main-container{
+    width: 80%;
+}
+
+.content{
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+}
+
+.wrapper .main-container ul li a{
+    background: #fff;
+    color: #000;
+    display: block;
+    float: right;
+    margin: 0 10px;
+    font-size: 18px;
+    width: 34px;
+    height: 34px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.3s;
+    transition-property: background, color;
+}
